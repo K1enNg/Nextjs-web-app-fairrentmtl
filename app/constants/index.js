@@ -1,0 +1,1 @@
+export const HERO_CONTENT = "Bringing transparency to the people, by the people. Empowering renters to make informed decisions for a better renting experience."

@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '@/assets/mtl-logo.png'
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -10,10 +11,10 @@ const Navbar = () => {
         <h1 className="text-xl font-bold">MTL</h1>
       </div>
       <nav className="flex gap-6">
-        <p className="cursor-pointer hover:underline">Section1</p>
-        <p className="cursor-pointer hover:underline">Section2</p>
-        <p className="cursor-pointer hover:underline">Section3</p>
-        <p className="cursor-pointer hover:underline">Section4</p>
+        <p className="cursor-pointer hover:underline">Market Trend</p>
+        <p className="cursor-pointer hover:underline">Help Ur Community</p>
+        <p className="cursor-pointer hover:underline">About Us</p>
+        <p className="cursor-pointer hover:underline">Contact</p>
       </nav>
     </header>
   );

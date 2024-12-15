@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import SplashScreen from "./components/SplashScreen";
+import About from "./pages/About";
 
 
 export default function Home() {
@@ -21,10 +22,11 @@ export default function Home() {
     <>
       { isLoading && isHome ? (
         <SplashScreen finishLoading={() => setIsLoading(false)}/>
-      ): (
+      ) : (
         <>
         <Navbar/>
         <Hero/>
+        <About/>
         </>
       )}
 
