@@ -11,10 +11,8 @@ const Navbar = () => {
         <h1 className="text-xl font-bold">MTL</h1>
       </div>
       <nav className="flex gap-6">
-        <p className="cursor-pointer hover:underline">Market Trend</p>
-        <p className="cursor-pointer hover:underline">Help Ur Community</p>
-        <p className="cursor-pointer hover:underline">About Us</p>
-        <p className="cursor-pointer hover:underline">Contact</p>
+        <p className="cursor-pointer hover:underline">EN</p>
+        <p className="cursor-pointer hover:underline">FR</p>
       </nav>
     </header>
   );

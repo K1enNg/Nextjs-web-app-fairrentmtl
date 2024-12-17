@@ -2,12 +2,11 @@
 
 import Image from "next/image";
 import styles from "./page.module.css";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import SplashScreen from "./components/SplashScreen";
-import About from "./pages/About";
+import layout from "@/app/layout"
+import Hero from "./components/Hero";
 
 
 export default function Home() {
@@ -23,11 +22,7 @@ export default function Home() {
       { isLoading && isHome ? (
         <SplashScreen finishLoading={() => setIsLoading(false)}/>
       ) : (
-        <>
-        <Navbar/>
         <Hero/>
-        <About/>
-        </>
       )}
 
     </>
